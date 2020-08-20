@@ -1,0 +1,9 @@
+main
+*.s
+a.out
+*.tar.xz
+backup
+*.jpg
+*.odg
+main
+NOTE.txt

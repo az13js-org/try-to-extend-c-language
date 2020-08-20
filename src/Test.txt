@@ -1,0 +1,26 @@
+@OtherClass/ClassA
+
++new() {
+    ClassA testObject = new ClassA(100);
+    this.theEnd();
+}
+
+void theEnd() {
+    printf("Finish\n");
+}
+
+
+/*
+    // Q: 判断点符号"."之前的到底是什么对象？
+    int homeworkNum = (new Student()).getHomework().getTotalNum();
+
+    int i;
+    for (i = (new Student()).getTotalNum(); i >= 0; i--) {
+        // DO...
+    }
+
+    // (new Student()).getTotalNum();
+    // (???).getTotalNum();
+*/
+
+

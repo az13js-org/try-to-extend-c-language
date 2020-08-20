@@ -1,0 +1,7 @@
+int a;
+
+new(int input) {
+    this.a = input;
+    printf("object of ClassA: a = %d\n", this.a);
+}
+
